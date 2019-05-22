@@ -1,0 +1,32 @@
+AllCops:
+  Exclude:
+    - 'spec/**/*'
+
+Metrics/LineLength:
+  Max: 110
+
+Metrics/MethodLength:
+  Max: 30
+
+Metrics/AbcSize:
+  Enabled: false
+
+Metrics/CyclomaticComplexity:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+Security/Open:
+  Enabled: false
+
+Lint/UriEscapeUnescape:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/AsciiComments:
+  Enabled: false
+
+

@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+require_relative '../lib/parser_wiki_title'
+require_relative '../lib/parser_wiki_title/parser'
+
+begin
+  ParserWikiTitle::Parser.parse
+rescue StandardError => e
+  puts e.message
+end
